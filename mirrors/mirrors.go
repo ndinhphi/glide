@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Masterminds/glide/msg"
-	gpath "github.com/Masterminds/glide/path"
+	"github.com/ndinhphi/glide/msg"
+	gpath "github.com/ndinhphi/glide/path"
 )
 
 var mirrors map[string]*mirror

@@ -113,7 +113,7 @@ sudo apt-get install glide
 
 On Ubuntu Zesty (17.04) the package is called `golang-glide`.
 
-[Binary packages](https://github.com/Masterminds/glide/releases) are available for Mac, Linux and Windows.
+[Binary packages](https://github.com/ndinhphi/glide/releases) are available for Mac, Linux and Windows.
 
 For a development version it is also possible to `go get github.com/Masterminds/glide`.
 
@@ -268,36 +268,36 @@ gives data like this:
 ```
 $ glide tree
 github.com/Masterminds/glide
-	github.com/Masterminds/cookoo   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo)
-		github.com/Masterminds/cookoo/io   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/io)
-	github.com/Masterminds/glide/cmd   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/cmd)
-		github.com/Masterminds/cookoo   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo)
-			github.com/Masterminds/cookoo/io   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/io)
-		github.com/Masterminds/glide/gb   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/gb)
-		github.com/Masterminds/glide/util   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/util)
-			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
-		github.com/Masterminds/glide/yaml   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/yaml)
-			github.com/Masterminds/glide/util   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/util)
-				github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
-			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
+	github.com/Masterminds/cookoo   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/cookoo)
+		github.com/Masterminds/cookoo/io   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/cookoo/io)
+	github.com/ndinhphi/glide/cmd   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/cmd)
+		github.com/Masterminds/cookoo   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/cookoo)
+			github.com/Masterminds/cookoo/io   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/cookoo/io)
+		github.com/ndinhphi/glide/gb   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/gb)
+		github.com/ndinhphi/glide/util   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/util)
+			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/vcs)
+		github.com/ndinhphi/glide/yaml   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/yaml)
+			github.com/ndinhphi/glide/util   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/util)
+				github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/vcs)
+			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/vcs)
 			gopkg.in/yaml.v2   (/Users/mfarina/Code/go/src/gopkg.in/yaml.v2)
-		github.com/Masterminds/semver   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/semver)
-		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
-		github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/urfave/cli)
-	github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/urfave/cli)
-	github.com/Masterminds/cookoo   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo)
-		github.com/Masterminds/cookoo/io   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/cookoo/io)
-	github.com/Masterminds/glide/gb   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/gb)
-	github.com/Masterminds/glide/util   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/util)
-		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
-	github.com/Masterminds/glide/yaml   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/yaml)
-		github.com/Masterminds/glide/util   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/util)
-			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
-		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
+		github.com/Masterminds/semver   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/semver)
+		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/vcs)
+		github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/urfave/cli)
+	github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/urfave/cli)
+	github.com/Masterminds/cookoo   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/cookoo)
+		github.com/Masterminds/cookoo/io   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/cookoo/io)
+	github.com/ndinhphi/glide/gb   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/gb)
+	github.com/ndinhphi/glide/util   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/util)
+		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/vcs)
+	github.com/ndinhphi/glide/yaml   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/yaml)
+		github.com/ndinhphi/glide/util   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/util)
+			github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/vcs)
+		github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/vcs)
 		gopkg.in/yaml.v2   (/Users/mfarina/Code/go/src/gopkg.in/yaml.v2)
-	github.com/Masterminds/semver   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/semver)
-	github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/Masterminds/vcs)
-	github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/Masterminds/glide/vendor/github.com/urfave/cli)
+	github.com/Masterminds/semver   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/semver)
+	github.com/Masterminds/vcs   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/Masterminds/vcs)
+	github.com/urfave/cli   (/Users/mfarina/Code/go/src/github.com/ndinhphi/glide/vendor/github.com/urfave/cli)
 ```
 
 This shows a tree of imports, excluding core libraries. Because
